@@ -2,9 +2,9 @@ use Mix.Config
 
 # Configure your database
 config :elixirProject, ElixirProject.Repo,
-  username: "root",
-  password: "",
-  database: "elixirproject_dev",
+  username: "postgres",
+  password: "Popo 123",
+  database: "postgres",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
