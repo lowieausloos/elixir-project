@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :elixirProject, ElixirProject.Repo,
   username: "postgres",
-  password: "Popo 123",
+  password: "t",
   database: "postgres",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
